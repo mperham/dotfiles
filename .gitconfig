@@ -1,0 +1,49 @@
+[user]
+	name = Mike Perham
+	email = mperham@gmail.com
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+    interactive = auto
+    ui = true
+    pager = true
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+[alias]
+    st = status -sb
+    ci = commit
+    br = branch
+    df = diff
+    lg = log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+    lg = log -p
+    co = checkout
+    cp = cherry-pick
+    pr = pull-request
+    tree = log --graph --pretty=oneline --decorate
+    pom = push origin master
+    amend = commit --amend -C HEAD
+    wdiff = diff --color-words
+    standup = log --since yesterday --author mperham@gmail.com
+    rst = reset --hard
+[core]
+    pager = less -FRSX
+    whitespace=trailing-space
+	excludesfile = /Users/mperham/.gitignore_global
+[apply]
+  whitespace = fix
+[push]
+	default = simple
+[help]
+  autocorrect = 1

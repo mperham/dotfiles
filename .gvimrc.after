@@ -1,0 +1,10 @@
+set go-=T
+colorscheme railscasts2
+set gfn=Menlo\ Regular:h15
+" Autoread in modified buffers rather than asking
+set autoread
+
+" reset the annoying line number bg color in Railscasts2
+hi LineNr                    guifg=#888888 guibg=#2b2b2b
+
+set statusline=%f\ %m\ %r%{fugitive#statusline()}%#warningmsg#%{SyntasticStatuslineFlag()}%*
