@@ -4,6 +4,17 @@ Downloads
 Desktop
 Dropbox
 Library
+Movies
 Music
 Pictures
+Public
 .DS_Store
+.dropbox
+.rbenv
+.bash_history
+.cache
+.campfire.yml
+.gem
+.mysql_history
+.ssh/known_hosts
+.ssh/id_rsa

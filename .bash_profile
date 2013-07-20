@@ -14,3 +14,4 @@ export RUBY_HEAP_FREE_MIN=100000
 [[ $- == *i* ]] && . ${HOME}/.git-prompt/git-prompt.sh
 
 eval "$(rbenv init -)"
+source ~/.bashrc
