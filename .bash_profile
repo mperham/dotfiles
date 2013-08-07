@@ -1,6 +1,7 @@
 export PATH=~/bin:$PATH
 export EDITOR=vim
 export GEM_OPEN_EDITOR=mvim
+export GEM_EDITOR=mvim
 export BUNDLER_EDITOR=mvim
 export PROMPT_DIRTRIM=3
 export BETTER_ERRORS_EDITOR=mvim
