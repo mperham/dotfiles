@@ -14,5 +14,9 @@ export RUBY_HEAP_FREE_MIN=100000
 
 [[ $- == *i* ]] && . ${HOME}/.git-prompt/git-prompt.sh
 
-eval "$(rbenv init -)"
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
+chruby ruby-2.0.0-p353
+
 source ~/.bashrc
+export PATH=/usr/local/bin:$PATH
