@@ -6,7 +6,8 @@ if [ -f $git_completion ] ; then source $git_completion; fi
 source `brew --prefix git`/etc/bash_completion.d/git-prompt.sh
 export GIT_PS1_SHOWCOLORHINTS='1'
 export GIT_PS1_SHOWDIRTYSTATE='1'
-export PROMPT_COMMAND='__git_ps1 "\[\e[0;33m\]\w\[\e[0m\]" "\\\$ "'
+export GIT_PS1_SHOWUPSTREAM='auto'
+export PROMPT_COMMAND='__git_ps1 "\[\e[0;35m\]\w\[\e[0m\]" "\\\$ "'
 
 alias ls="ls -G"
 export LSCOLORS=GxFxCxDxBxegedabagaced
