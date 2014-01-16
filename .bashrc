@@ -9,7 +9,7 @@ export GIT_PS1_SHOWDIRTYSTATE='1'
 export GIT_PS1_SHOWUPSTREAM='auto'
 export PROMPT_COMMAND='__git_ps1 "\[\e[0;35m\]\w\[\e[0m\]" "\\\$ "'
 
-alias ls="ls -G"
+export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
 source /usr/local/opt/chruby/share/chruby/chruby.sh
