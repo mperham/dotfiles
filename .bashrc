@@ -30,3 +30,6 @@ export RUBY_GC_HEAP_INIT_SLOTS=600000
 export RUBY_HEAP_FREE_MIN=100000
 
 alias ber="bundle exec rake"
+
+export GOPATH=$HOME/src/go
+export PATH=$PATH:$GOPATH/bin
