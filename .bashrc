@@ -31,5 +31,5 @@ export RUBY_HEAP_FREE_MIN=100000
 
 alias ber="bundle exec rake"
 
-export GOPATH=$HOME/src/go
+export GOPATH=$HOME
 export PATH=$PATH:$GOPATH/bin
