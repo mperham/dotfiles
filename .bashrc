@@ -30,6 +30,7 @@ export PRY_ENABLED=1
 #export RUBY_HEAP_FREE_MIN=100000
 
 alias ber="bundle exec rake"
+alias got="go test ./..."
 
 export GOPATH=$HOME
 export PATH=$PATH:$GOPATH/bin
