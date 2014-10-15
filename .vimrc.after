@@ -12,3 +12,5 @@ autocmd BufWritePre *.rb :%s/\s\+$//e
 au FileType go nmap <leader>c <Plug>(go-coverage)
 au FileType go nmap gd <Plug>(go-def)
 au FileType go nmap <Leader>r <Plug>(go-rename)
+
+let g:go_fmt_command = "goimports"
