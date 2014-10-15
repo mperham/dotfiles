@@ -9,4 +9,6 @@ set statusline=%f\ %m\ %r%{fugitive#statusline()}%#warningmsg#%{SyntasticStatusl
 set wildignore+=tmp/*
 
 autocmd BufWritePre *.rb :%s/\s\+$//e
-autocmd FileType go autocmd BufWritePre <buffer> silent Fmt
+au FileType go nmap <leader>c <Plug>(go-coverage)
+au FileType go nmap gd <Plug>(go-def)
+au FileType go nmap <Leader>r <Plug>(go-rename)

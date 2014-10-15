@@ -8,6 +8,8 @@ Movies
 Music
 Pictures
 Public
+bin
+pkg
 tmp
 .DS_Store
 .customers.rb
