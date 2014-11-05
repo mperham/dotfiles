@@ -38,7 +38,7 @@ export PATH=$PATH:$GOROOT/bin:~/bin
 
 # brew install bash
 # brew install bash-completion
-export CDPATH=".:~:~/src:~/src/github.com/mperham"
+export CDPATH=".:~:~/src:~/src/github.com/mperham:~/src/github.com"
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
