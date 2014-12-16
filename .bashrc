@@ -15,7 +15,7 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
 
-export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/go/bin:/usr/local/bin:$PATH
 export EDITOR=vim
 export GEM_OPEN_EDITOR=mvim
 export GEM_EDITOR=mvim
@@ -33,8 +33,7 @@ alias ber="bundle exec rake"
 alias got="go test ./..."
 
 export GOPATH=$HOME
-export GOROOT=`go env GOROOT`
-export PATH=$PATH:$GOROOT/bin:~/bin
+export PATH=$PATH:~/bin
 
 # brew install bash
 # brew install bash-completion
