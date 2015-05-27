@@ -21,7 +21,7 @@ export GEM_OPEN_EDITOR=mvim
 export GEM_EDITOR=mvim
 export BUNDLER_EDITOR=mvim
 export BETTER_ERRORS_EDITOR=mvim
-export PRY_ENABLED=1
+export DISABLE_SPRING=1
 
 # sensible GC tuning
 #export RUBY_GC_MALLOC_LIMIT=59000000
