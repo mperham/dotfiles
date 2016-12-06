@@ -27,3 +27,6 @@ tmp
 .vim
 .viminfo
 .rubies
+.bash_sessions/
+.bundle/cache/
+.Trash/

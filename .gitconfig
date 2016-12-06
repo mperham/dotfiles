@@ -40,7 +40,7 @@
 [core]
     pager = less -FRSX
     whitespace=trailing-space
-	excludesfile = /Users/mperham/.gitignore_global
+	excludesfile = /Users/mikeperham/.gitignore_global
 [apply]
   whitespace = fix
 [push]
