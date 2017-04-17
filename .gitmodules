@@ -1,6 +1,3 @@
-[submodule ".janus/rename2"]
-	path = .janus/rename2
-	url = https://github.com/vim-scripts/Rename2.git
 [submodule ".janus/vim-crystal"]
 	path = .janus/vim-crystal
 	url = https://github.com/rhysd/vim-crystal.git
