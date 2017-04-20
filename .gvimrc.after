@@ -8,3 +8,5 @@ set autoread
 hi LineNr                    guifg=#888888 guibg=#2b2b2b
 
 set statusline=%f\ %m\ %r%{fugitive#statusline()}%#warningmsg#%{SyntasticStatuslineFlag()}%*
+
+autocmd VimEnter * wincmd w
