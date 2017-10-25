@@ -37,7 +37,7 @@ export PATH=$PATH:~/bin
 
 # brew install bash
 # brew install bash-completion
-export CDPATH=".:~:~/src:~/src/github.com/mperham:~/src/github.com"
+export CDPATH=".:~:~/src:~/src/github.com/mperham:~/src/github.com/contribsys"
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
