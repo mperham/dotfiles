@@ -1,3 +1,0 @@
-[submodule ".janus/vim-crystal"]
-	path = .janus/vim-crystal
-	url = https://github.com/rhysd/vim-crystal.git

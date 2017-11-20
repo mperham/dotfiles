@@ -1,1 +1,1 @@
-/Users/mikeperham/.vim/janus/vim/vimrc
+/Users/mike/.vim/janus/vim/vimrc

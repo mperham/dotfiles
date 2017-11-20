@@ -14,13 +14,11 @@ tmp
 .DS_Store
 .customers.rb
 .dropbox
-.rbenv
 .bash_history
 .cache
 .campfire.yml
 .config
 .gem
-.mysql_history
 .ssh/known_hosts
 .ssh/id_rsa
 .ssh/old_rsa
@@ -30,3 +28,5 @@ tmp
 .bash_sessions/
 .bundle/cache/
 .Trash/
+go/
+.faktory/
