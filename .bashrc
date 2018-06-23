@@ -20,14 +20,8 @@ export EDITOR=vim
 export GEM_OPEN_EDITOR=mvim
 export GEM_EDITOR=mvim
 export BUNDLER_EDITOR=mvim
-export BETTER_ERRORS_EDITOR=mvim
-export DISABLE_SPRING=1
-
-# sensible GC tuning
-#export RUBY_GC_MALLOC_LIMIT=59000000
-#export RUBY_GC_HEAP_INIT_SLOTS=600000
-#export RUBY_HEAP_MIN_SLOTS=600000
-#export RUBY_HEAP_FREE_MIN=100000
+# crystal spec
+export PKG_CONFIG_PATH=/usr/local/opt/openssl/lib/pkgconfig
 
 alias ber="bundle exec rake"
 alias got="go test ./..."
@@ -41,4 +35,3 @@ export CDPATH=".:~:~/src:~/src/github.com/mperham:~/src/github.com/contribsys"
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
-
