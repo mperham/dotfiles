@@ -18,10 +18,14 @@ tmp
 .cache
 .campfire.yml
 .config
+.cargo/
+.docker/
 .gem
+.local/
 .ssh/known_hosts
 .ssh/id_rsa
 .ssh/old_rsa
+.vagrant.d/
 .vim
 .viminfo
 .rubies
