@@ -34,3 +34,5 @@ tmp
 .Trash/
 go/
 .faktory/
+.tmp/
+.npm/
