@@ -47,3 +47,5 @@
 	default = simple
 [help]
   autocorrect = 1
+[init]
+	defaultBranch = trunk
