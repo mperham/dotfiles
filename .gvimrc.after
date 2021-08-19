@@ -11,3 +11,6 @@ set statusline=%f\ %m\ %r%{fugitive#statusline()}%#warningmsg#%{SyntasticStatusl
 
 autocmd VimEnter * wincmd w
 let g:go_fmt_command = "goimports"
+" Disable hover tooltips
+set noballooneval
+let g:netrw_nobeval = 1

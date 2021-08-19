@@ -88,7 +88,7 @@ source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-export EDITOR='vim'
+export EDITOR='mvim -f'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -107,6 +107,10 @@ source /usr/local/opt/chruby/share/chruby/auto.sh
 alias ber="bundle exec rake"
 alias fent="cd ~/src/github.com/mperham/faktory-comm/ent"
 alias fak="cd ~/src/github.com/contribsys/faktory"
+alias fwg="cd ~/src/github.com/contribsys/faktory_worker_go"
+alias sync="rsync -r root@gems:/btsync btsync"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export PATH="/usr/local/sbin:$PATH"
+export HOMEBREW_NO_AUTO_UPDATE=1
